@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  display: grid;
+  height:;
+  grid-gap: 2px;
+  grid-template-columns:repeat(12, 1fr);
+  grid-template-rows:repeat(12, 1fr);
+  grid-template-areas:
+  "m h h h h h h h h h h h"
+  "m c c c c c c c c c c c"
+  "m c c c c c c c c c c c"
+  "m c c c c c c c c c c c"
+  "m f f f f f f f f f f f"
+}
+
+.header{
+  background: yellow;
+  grid-area: h;
+
+
+}
+
+.menu{
+background: green;
+grid-area: m;
+
+}
+
+.content{
+background: red;
+grid-area: c;
+}
+
+.footer{
+  background: silver;
+  grid-area: f;
+
+}

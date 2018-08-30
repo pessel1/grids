@@ -1,0 +1,32 @@
+body {
+	background-color: #CCC;
+	margin:80px 80px 100px 100px;
+}
+div#fixedheader {
+
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:#333;
+	padding:20px;
+}
+div#fixedfooter {
+	position:fixed;
+	bottom:20px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:#333;
+	padding:8px;
+}
+
+
+a{
+  display: block;
+ border: 5px solid white;
+ padding:8px solid yellow;
+ margin: 8px;
+  float: left;
+}
